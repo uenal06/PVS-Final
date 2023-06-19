@@ -6,7 +6,7 @@ COPY package.json .
 
 RUN npm install
 
-COPY ../../../muueit/frontend  .
+COPY .  .
 
 EXPOSE 3000
 
